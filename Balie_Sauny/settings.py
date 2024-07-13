@@ -41,7 +41,7 @@ ALLOWED_HOSTS = [
     'localhost', 
     '127.0.0.1', 
     'master--front-end-balie.netlify.app',
-    'baliesauny.com',
+    'https://baliesauny.com'
 ]
 
 CSRF_TRUSTED_ORIGINS = [
