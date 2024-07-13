@@ -40,12 +40,14 @@ ALLOWED_HOSTS = [
     'tub-backend-production.up.railway.app', 
     'localhost', 
     '127.0.0.1', 
-    'master--front-end-balie.netlify.app'
+    'master--front-end-balie.netlify.app',
+    'baliesauny.com',
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     'https://tub-backend-production.up.railway.app',
-    'https://master--front-end-balie.netlify.app'
+    'https://master--front-end-balie.netlify.app',
+    'https://baliesauny.com'
 ]
 
 # Application definition
