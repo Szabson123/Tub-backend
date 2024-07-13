@@ -36,9 +36,17 @@ if ENVIRONMENT == 'development':
 else:
     DEBUG = False
 
-ALLOWED_HOSTS = ['tub-backend-production.up.railway.app', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = [
+    'tub-backend-production.up.railway.app', 
+    'localhost', 
+    '127.0.0.1', 
+    'master--front-end-balie.netlify.app'
+]
 
-CSRF_TRUSTED_ORIGINS = ['https://tub-backend-production.up.railway.app']
+CSRF_TRUSTED_ORIGINS = [
+    'https://tub-backend-production.up.railway.app',
+    'https://master--front-end-balie.netlify.app'
+]
 
 # Application definition
 
@@ -160,7 +168,8 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:4200'
+    'http://localhost:4200',
+    'https://master--front-end-balie.netlify.app',
 ]
 
 
