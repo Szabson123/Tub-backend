@@ -43,14 +43,16 @@ ALLOWED_HOSTS = [
     'master--front-end-balie.netlify.app',
     'baliesauny.com',
     'front-end-balie.netlify.app',
-    '75.2.60.5'
+    '75.2.60.5',
+    'baliesauny.com/shop'
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     'https://tub-backend-production.up.railway.app',
     'https://master--front-end-balie.netlify.app',
     'https://baliesauny.com',
-    'https://front-end-balie.netlify.app'
+    'https://front-end-balie.netlify.app',
+    'https://baliesauny.com/shop',
 ]
 
 # Application definition
