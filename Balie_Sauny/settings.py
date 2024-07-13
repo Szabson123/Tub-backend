@@ -36,8 +36,9 @@ if ENVIRONMENT == 'development':
 else:
     DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['tub-backend-production.up.railway.app', 'localhost', '127.0.0.1']
 
+CSRF_TRUSTED_ORIGINS = ['https://tub-backend-production.up.railway.app']
 
 # Application definition
 
@@ -205,3 +206,4 @@ SIMPLE_JWT = {
 
 HONEYPOT_VERIFIER = 'honeypot.verifiers.HoneypotFieldVerifier'
 HONEYPOT_MESSAGE = 'Nice try, bot!'
+
