@@ -179,6 +179,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:4200',
     'https://master--front-end-balie.netlify.app',
+    'https://baliesauny.com',
+    'https://www.baliesauny.com',
 ]
 
 
